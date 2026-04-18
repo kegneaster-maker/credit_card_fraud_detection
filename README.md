@@ -17,6 +17,7 @@ This project implements an automated fraud detection system using the **Isolatio
 * **Visualization:** Seaborn, Matplotlib
 
 ## 📊 Results & Performance
+![Fraud Detection Confusion Matrix](photo_5985787296877317038_y.jpg)
 During testing with the Credit Card Fraud dataset:
 * **Accuracy:** ~99%
 * **Fraud Identification:** Successfully isolated fraudulent cases from a highly imbalanced dataset.
