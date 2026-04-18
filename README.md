@@ -1,40 +1,34 @@
 # Credit Card Fraud Detection System
-Unsupervised Machine Learning for Financial Security
+### *Unsupervised Machine Learning for Financial Security*
+
 ## 📌 Project Overview
-An automated finacial security system using the isolation Forest algorithm to detect fraudulent transactions.
-##🚀 Key Features
-Secure Authentication: Integrated a login gateway using Python's getpass module to ensure only authorized personnel can access the diagnostic tools.
+This project implements an automated fraud detection system using the **Isolation Forest** algorithm. It identifies anomalies in transaction data without requiring pre-labeled historical data, making it highly adaptable to new fraud patterns.
 
-Anomaly Detection: Utilizes an Isolation Forest model to isolate outliers in transaction data, which are then flagged as potential fraud.
+## 🚀 Key Features
+* **Secure Authentication:** Integrated a login gateway using Python's `getpass` module.
+* **Anomaly Detection:** Uses Isolation Forest to isolate outliers in transaction data.
+* **Data Scaling:** Implemented `StandardScaler` to normalize transaction amounts.
+* **Interactive Visuals:** Provides a professional **Confusion Matrix** heatmap for evaluation.
 
-Data Scaling: Implemented StandardScaler to normalize transaction amounts, ensuring the model is not biased by varying scales of currency.
-
-Interactive Visuals: Provides a professional Confusion Matrix heatmap to evaluate the precision and recall of the model.
 ## 🛠️ Technical Stack
-Language: Python
+* **Language:** Python
+* **Data Handling:** Pandas, NumPy
+* **Machine Learning:** Scikit-learn
+* **Visualization:** Seaborn, Matplotlib
 
-Data Handling: Pandas, NumPy
-
-Machine Learning: Scikit-learn (IsolationForest, StandardScaler)
-
-Visualization: Seaborn, Matplotlib
 ## 📊 Results & Performance
-During testing with the Credit Card Fraud dataset (50,000 samples):
+During testing with the Credit Card Fraud dataset:
+* **Accuracy:** ~99%
+* **Fraud Identification:** Successfully isolated fraudulent cases from a highly imbalanced dataset.
 
-Accuracy: ~99%
-
-Fraud Identification: Successfully isolated the majority of fraudulent cases from a highly imbalanced dataset.
-
-Insights: The Confusion Matrix confirms a low false-negative rate, which is critical in preventing financial loss.
 ## 📝 How to Use
-Open the .ipynb file in Visual Studio Code or Jupyter Notebook.
+1. Open the `.ipynb` file in VS Code.
+2. Run the cells and enter the credentials:
+    * **Username:** Aster
+    * **Password:** 2026
 
-Ensure the required libraries are installed: pip install pandas scikit-learn seaborn matplotlib.
+## 🎓 Academic Significance
+This project demonstrates expertise in handling Big Data, implementing unsupervised algorithms, and data visualization for Cybersecurity applications.
 
-Run the code cells and enter the credentials when prompted:
 
-Username: Aster
 
-Password: 2026
-## 🎓 Academic & Professional Significance
-This project demonstrates my ability to handle Big Data, implement unsupervised algorithms, and visualize complex statistical relationships. It serves as a foundation for my work in Cybersecurity and Machine Learning Applications.
